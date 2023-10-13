@@ -1,0 +1,45 @@
+#top{
+    color: #fff;
+    text-align: center;
+    height: 370px;
+}
+
+.table{
+    float: left;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.table:hover{
+    border: 1px solid #fff;
+}
+
+#main{
+    clear: both;
+    background-color: WhiteSmoke;
+    height: 50px;
+}
+
+#left{
+    float: left;
+    background-color: WhiteSmoke;
+    width: 70%;
+    height: 230px;
+}
+
+#righ{
+    float: left;
+    background-color: WhiteSmoke;
+    width: 30%;
+    height: 230px;
+    text-align: right;
+}
+
+body{
+    font-family: Tahoma;
+    background-color: Crimson;
+}
