@@ -67,6 +67,28 @@ $zamowienia = [
             'adres' => 'ul. Polna 8, 50-002 Wrocław'
         ],
         'suma' => 0
+    ],
+    [
+        'numer_zamowienia' => 32543,
+        'data_zamowienia' => '2022-10-10',
+        'produkty' => [
+            [
+                'nazwa' => 'Samochód',
+                'cena' => 20000,
+                'ilosc' => 1
+            ],
+            [
+                'nazwa' => 'Dom',
+                'cena' => 10000000,
+                'ilosc' => 1
+            ]
+        ],
+        'klient' => [
+            'imie' => 'Dawid',
+            'nazwisko' => 'Podsiadło',
+            'adres' => 'ul. Dolna 14, 64-360 Zbąszyń'
+        ],
+        'suma' => 0
     ]
 ];
 
