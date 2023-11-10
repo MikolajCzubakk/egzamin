@@ -22,7 +22,7 @@ $zamowienia = [
             'nazwisko' => 'Nowak',
             'adres' => 'ul. Leśna 5, 30-001 Kraków'
         ],
-        'suma' => 0
+        'suma' => 4029.97
     ],
     [
         'numer_zamowienia' => 67890,
@@ -44,7 +44,7 @@ $zamowienia = [
             'nazwisko' => 'Kowalczyk',
             'adres' => 'ul. Kwiatowa 15, 05-001 Warszawa'
         ],
-        'suma' => 0
+        'suma' => 1059.97
     ],
     [
         'numer_zamowienia' => 13579,
@@ -66,7 +66,7 @@ $zamowienia = [
             'nazwisko' => 'Wiśniewski',
             'adres' => 'ul. Polna 8, 50-002 Wrocław'
         ],
-        'suma' => 0
+        'suma' => 1679.96
     ],
     [
         'numer_zamowienia' => 32543,
@@ -88,10 +88,10 @@ $zamowienia = [
             'nazwisko' => 'Podsiadło',
             'adres' => 'ul. Dolna 14, 64-360 Zbąszyń'
         ],
-        'suma' => 0
+        'suma' => 10020000
     ]
 ];
-
+$max=null;
 // Przykład użycia danych z tablicy zamówień
 foreach ($zamowienia as $zamowienie) {
     echo "Numer zamówienia: " . $zamowienie['numer_zamowienia'] . "<br>";
@@ -108,6 +108,9 @@ foreach ($zamowienia as $zamowienie) {
     echo "Adres: " . $zamowienie['klient']['adres'] . "<br>";
 
     echo "<br>Suma zamówienia: " . $zamowienie['suma'] . " PLN<br><br>";
+    $suma=$suma+$zamowienie['suma'];
+    echo "Suma zamówień: " . $suma;
 }
 
-?>
+
+?> 
